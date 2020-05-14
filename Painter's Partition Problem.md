@@ -1,30 +1,3 @@
-Problem Statement:
-
-Given 2 integers A and B and an array of integars C of size N.
-
-Element C[i] represents length of ith board.
-
-You have to paint all N boards [C0, C1, C2, C3 … CN-1]. There are A painters available and each of them takes B units of time to paint 1 unit of board.
-
-Calculate and return minimum time required to paint all boards under the constraints that any painter will only paint contiguous sections of board.
-
-Input Format:
-
-The first argument given is the integer A.
-The second argument given is the integer B.
-The third argument given is the integer array C.
-
-Output Format:
-Return minimum time required to paint all boards under the constraints that any painter will only paint contiguous sections of board % 10000003.
-
-Constraints:
-
-1 <=A <= 1000
-1 <= B <= 10^6
-1 <= C.size() <= 10^5
-1 <= C[i] <= 10^6
-
-Solution:
 #  Painter's Partition Problem!
 ### Problem Statement:
 Given 2 integers A and B and an array of integars C of size N.
