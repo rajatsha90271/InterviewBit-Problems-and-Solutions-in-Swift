@@ -26,14 +26,14 @@ all elements in A are disitinct.
 ---
 **Solution:**
 
- import Foundation
+    import Foundation
 
-class Solution {
+    class Solution {
     func search(_ A: [Int], _ B: inout Int) -> Int {
         var left = 0
         var right = A.count - 1
-        while left <= right{
-            var mid = left + (right - left) / 2
+           while left <= right{
+                 var mid = left + (right - left) / 2
             
             if A[mid] == B{
                 return mid
@@ -60,4 +60,4 @@ class Solution {
         }
         return -1
     }
-}
+    }
